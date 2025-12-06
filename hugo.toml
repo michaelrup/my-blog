@@ -1,12 +1,12 @@
 baseURL = 'https://michael.rupprecht.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Michael Rupprecht'
 theme = 'hugo-blog-awesome'
 
 [params]
   sitename = "My Blog"
   defaultColor = "auto" # options: dark, light, auto
-  description = "A minimal Hugo blog"
+  description = ""
   mainSections = ['posts']
   toc = false
   goToTop = true
