@@ -1,0 +1,40 @@
+baseURL = 'https://michael.rupprecht.io/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'hugo-blog-awesome'
+
+[params]
+  sitename = "My Blog"
+  defaultColor = "auto" # options: dark, light, auto
+  description = "A minimal Hugo blog"
+  mainSections = ['posts']
+  toc = false
+  goToTop = true
+
+[params.author]
+  avatar = "avatar.jpg" # place your avatar in assets/ folder
+  intro = "Hi, I'm Michael"
+  name = "Michael Rupprecht"
+
+# Header navigation menu
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 10
+[[menu.main]]
+  name = 'Posts'
+  url = '/posts/'
+  weight = 20
+
+# Social icons (footer)
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/michael-rupprecht"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/michaelrup"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:michael@rupprecht.io" 
